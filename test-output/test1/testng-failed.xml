@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]">
+  <test thread-count="5" name="POMFramework(failed)">
+    <classes>
+      <class name="medicare_Pages_Test.LoginPageTest">
+        <methods>
+          <include name="start_browser"/>
+          <include name="test_login"/>
+        </methods>
+      </class> <!-- medicare_Pages_Test.LoginPageTest -->
+      <class name="medicare_Pages_Test.AddProductToCartTest">
+        <methods>
+          <include name="start_browser"/>
+          <include name="test_login"/>
+        </methods>
+      </class> <!-- medicare_Pages_Test.AddProductToCartTest -->
+      <class name="medicare_Pages_Test.HomePageTest">
+        <methods>
+          <include name="test_getTitle_page"/>
+          <include name="start_browser"/>
+        </methods>
+      </class> <!-- medicare_Pages_Test.HomePageTest -->
+      <class name="medicare_Pages_Test.OrderPageTest">
+        <methods>
+          <include name="test_login"/>
+          <include name="start_browser"/>
+        </methods>
+      </class> <!-- medicare_Pages_Test.OrderPageTest -->
+      <class name="medicare_Pages_Test.RegisterPageTest">
+        <methods>
+          <include name="start_browser"/>
+          <include name="test_click_register_link"/>
+        </methods>
+      </class> <!-- medicare_Pages_Test.RegisterPageTest -->
+    </classes>
+  </test> <!-- POMFramework(failed) -->
+</suite> <!-- Failed suite [test1] -->

@@ -1,0 +1,12 @@
+<suite name="test1" verbose="1">
+	<test name="POMFramework">
+		<classes>
+			<class name="medicare_Pages_Test.RegisterPageTest"></class>
+			<class name="medicare_Pages_Test.LoginPageTest"></class>
+			<class name="medicare_Pages_Test.AddProductToCartTest"></class>
+			<class name="medicare_Pages_Test.OrderPageTest"></class>
+			<class name="medicare_Pages_Test.HomePageTest"></class>
+			
+		</classes>
+	</test>
+</suite>
